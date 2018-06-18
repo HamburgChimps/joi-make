@@ -1,0 +1,27 @@
+{
+  "name": "joi-make",
+  "version": "1.0.0-alpha",
+  "description": "Generate sample data given a joi schema",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamburgChimps/joi-make.git"
+  },
+  "keywords": [
+    "joi",
+    "schema",
+    "generate"
+  ],
+  "author": "Hamburg Chimps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HamburgChimps/joi-make/issues"
+  },
+  "homepage": "https://github.com/HamburgChimps/joi-make#readme",
+  "dependencies": {
+    "joi": "^13.4.0"
+  }
+}
