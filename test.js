@@ -1,0 +1,3 @@
+const joiMake = require('./')
+
+joiMake()

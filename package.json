@@ -23,5 +23,8 @@
   "homepage": "https://github.com/HamburgChimps/joi-make#readme",
   "dependencies": {
     "joi": "^13.4.0"
+  },
+  "devDependencies": {
+    "json-stringify-safe": "^5.0.1"
   }
 }

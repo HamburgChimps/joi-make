@@ -1,4 +1,5 @@
 const joi = require('joi')
+const stringifySafe = require('json-stringify-safe')
 
 const exampleSchema = joi.object({
   orange: joi.string().required(),
@@ -102,9 +103,11 @@ const exampleSchema = joi.object({
 
 module.exports = function buildSchemaObjectModel(schemaInfo, out = {}, traverser = {}, acc = {}) {
 
-  console.log(JSON.stringify(exampleSchema))
+  console.log(stringifySafe(exampleSchema, null, 2))
 
   console.log('not yet functional! Please check back later!')
+
+  return;
 
   const nextTraverser = {};
 
